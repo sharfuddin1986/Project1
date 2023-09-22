@@ -18,7 +18,6 @@ If commit is made to develop branch, just test the product, do not push to prod
 4.The Code should be containerized with the help of a Dockerfile. The
 Dockerfile should bebuilt every time there is a push to Git-Hub. Use the
 following pre-built container for your application:
-
 The code should reside in '/var/www/html'
 5.The above tasks should be defined in a Jenkins Pipeline, with the
 following jobs:
