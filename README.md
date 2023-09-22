@@ -19,7 +19,8 @@ https://github.com/birlasoft/product.git
    Dockerfile should bebuilt every time there is a push to Git-Hub. Use the
    following pre-built container for your application:
    The code should reside in '/var/www/html'
-5. The above tasks should be defined in a Jenkins Pipeline, with thefollowing jobs.
+5. The above tasks should be defined in a Jenkins Pipeline, with the
+   following jobs.
    Job1 : build 
    Job2: test
    Job3 : prod
