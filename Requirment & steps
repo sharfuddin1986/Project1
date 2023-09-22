@@ -4,7 +4,7 @@
    One for prod large type instance.  
    One Medium for Master Node & need to install jenkins  & Ansible.
    One  Ec2 instance micro type for Testing server environment need to install java & docker.
-2- All machine need to install java.
+2- All machine need to install java and docker.
 3- Create a key pair for authentication.Master to prod,test
    Run ssh-keygen command on master machine
    Copy the key of id_rsa.pub file 
@@ -19,6 +19,9 @@
    sudo nano master.sh     ### mater.sh file is attached in repo
    sudo nano slave.sh      ### slave.sh file is attached in repo
    sudo nano play.yml      ### play.yml file is attached in folder 
-   ansible-playbook play.yml --chcek  #### check for dry run
+   ansible-playbook play.yml --check  #### check for dry run
    ansible-playbook play.yml
+
+5- Master node
+
    -
