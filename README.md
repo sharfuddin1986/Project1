@@ -21,6 +21,7 @@ https://github.com/birlasoft/product.git
    The code should reside in '/var/www/html'
 5. The above tasks should be defined in a Jenkins Pipeline, with the
    following jobs.
+   
    Job1 : build 
    Job2: test
    Job3 : prod
