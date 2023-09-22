@@ -22,6 +22,6 @@
    ansible-playbook play.yml --check  #### check for dry run
    ansible-playbook play.yml
 
-5- Master node
+5- Master node    1.30
 
    -
