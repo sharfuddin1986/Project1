@@ -1,9 +1,18 @@
 # Requirment
 
-1- Three  Ec2 instance 
+1- Create Three  Ec2 instance 
    One for prod large type instance.  
    One Medium for Master Node & need to install jenkins  & Ansible.
    One  Ec2 instance micro type for Testing server environment need to install java & docker.
 2- All machine need to install java.
-
+3- Create a key pair for authentication.Master to prod,test
+   Run ssh-keygen command on master machine
+   Copy the key of id_rsa.pub file 
+   Paste the contain in Test & prod node under of .ssh folder authorize key.
+4- Master node 
+   /etc/ansible/hosts
+   entry the private ip of test node & prod node
+   172.31.29.52
+   172.31.24.52
+   ansible -m ping all     ### for check connection between master and Test,prod.
 
