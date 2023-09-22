@@ -1,0 +1,9 @@
+# Requirment
+
+1- Three  Ec2 instance 
+   One  Ec2 instance micro type for Testing server environment 
+   one Medium for jenkins server + Ansible Server
+   one for prod large type instance 
+2- All machine need to install java.
+3- Testing server need to install docker aslo for build docker file.
+
