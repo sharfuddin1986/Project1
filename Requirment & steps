@@ -47,6 +47,9 @@
    After that go to test node /jenkins/workspace/job1    ### i can see dockerfile,index and images file is there 
    we need to run automate conatiner.Then go to job1->Build steps-execute shell-
    sudo docker build /home/ubuntu//jenkins/workspace/job1 -t job1
+   sudo docker run -dit --name=job1 -p 83:80 job1
+    
 
+   2.43
    job2->free style project ->
    
