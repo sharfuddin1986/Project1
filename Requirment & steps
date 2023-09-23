@@ -31,5 +31,10 @@
 
 
    Add new node-name slave2-l,copy existing node-select-slave1-change private ip of prod node-save
+
+6- Go to github account fork of this repo
+   https://github.com/hshar/website
+   create dockerfile  ### dockerfile is attached in repo
+
     
    -
