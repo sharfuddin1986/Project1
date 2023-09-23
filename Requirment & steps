@@ -37,7 +37,12 @@
    create dockerfile  ### dockerfile is attached in repo
    Create a new branch name devlop
    
-7- Create a job
+7- Create a job in jenkins server
    job1 -> test node -> develop branch  ### Build the job
    job2 -> test node -> main branch     ### Test the job
    job3 -> prod node -> main branch     ### Run with the production environment
+
+
+   job1->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->Branch develop ->save
+   job2->free style project ->
+   
