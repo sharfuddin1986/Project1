@@ -48,7 +48,7 @@
    job3 -> prod node -> main branch     ### Run with the production environment
 
 
-   job1->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->
+   Create job -> name-job1->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->
    Branch develop ->select github hook triggerd for gitscm -> save
    After that go to test node /jenkins/workspace/job1    ### i can see dockerfile,index and images file is there 
    we need to run automate conatiner.Then go to job1->Build steps-execute shell-
@@ -63,10 +63,15 @@
 8- Go to Github repo in devlop branch and some line add in  index.html file.
    After commit jenkins automatically triggred the job 
 
-   Go to Job1 ->configure -> add online for delete container if it not delete job will not run
+   Go to Job1 ->configure -> execute shell add one line for delete the old  container name c1 if it not delete job will not run
    sudo docker rm -f c1
    sudo docker build /home/ubuntu//jenkins/workspace/Job1/ -t job1
    sudo docker run -itd -p 83:80 --name=c1 job1
-   2.54
-   job2->free style project ->
+
+9- 
+
+   job2->name-job2 ->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->
+   Branch main ->select github hook triggerd for gitscm ->Build step
+   sudo docker build /home/ubuntu//jenkins/workspace/Job2/ -t job2
+   sudo docker run -itd -p 82:80 --name=c2 job2      #### Save
    
