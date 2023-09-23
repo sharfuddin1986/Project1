@@ -59,7 +59,8 @@
    After that open browser and paste the public ip of Test node 
    http://54.166.226.217:83/       ### web page  is working now 
 
-
-   2.43
+8- Go to Github repo in devlop branch and some line add in  index.html file.
+   After commit jenkins automatically triggred the job 
+   2.54
    job2->free style project ->
    
