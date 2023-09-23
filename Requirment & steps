@@ -30,7 +30,6 @@
    credential-ubuntu,host key verification strategy-non verifiying  strategy - save
 
 
-   Add new node-name slave2-l,remote root directory-/home/ubutu/jenkins,launch method-Agent via ssh,host-private ip of test node,
-   credential-ubuntu,host key verification strategy-non verifiying  strategy - save
-
+   Add new node-name slave2-l,copy existing node-select-slave1-change private ip of prod node-save
+    
    -
