@@ -1,4 +1,4 @@
----
+
 - name: task for master
   hosts: localhost
   become: true
