@@ -1,12 +1,12 @@
 # Requirment
 
-1- Create Three  Ec2 instance 
+1- Create Three  Ec2 instance with ubuntu 22.04
    One for prod large type instance.  
    One Medium for Master Node & need to install jenkins  & Ansible.
    One  Ec2 instance micro type for Testing server environment need to install java & docker.
 2- All machine need to install java and docker.
 3- Create a key pair for authentication.Master to prod,test
-   Run ssh-keygen command on master machine
+   Run ssh-keygen command on master machine with ubuntu user login
    Copy the key of id_rsa.pub file 
    Paste the contain in Test & prod node under of .ssh folder authorize key.
 4- Master node 
