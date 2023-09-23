@@ -22,6 +22,15 @@
    ansible-playbook play.yml --check  #### check for dry run
    ansible-playbook play.yml
 
-5- Master node    1.30
+5- Open any borwser and paste jenkin server ip
+   https://3.145.189.184:8080    ### configure the jenkins
+   
+   Add new node-name slave1-l,remote root directory-/home/ubutu/jenkins,launch method-Agent via ssh,host-private ip of test node,
+   credential-add-jenkins-kind-ssh username with private key user name-ubuntu private key enter directory put the pem key contain
+   credential-ubuntu,host key verification strategy-non verifiying  strategy - save
+
+
+   Add new node-name slave2-l,remote root directory-/home/ubutu/jenkins,launch method-Agent via ssh,host-private ip of test node,
+   credential-ubuntu,host key verification strategy-non verifiying  strategy - save
 
    -
