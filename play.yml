@@ -1,13 +1,13 @@
-
+---
 - name: task for master
   hosts: localhost
   become: true
-  tasks: 
-- name: executing script on master
-  script: master.sh 
+  tasks:
+  - name: executing script on master
+    script: master.sh
 - name: task for slave
   hosts: all
   become: true
-  tasks: 
-- name: executing script on slave
-  script: slave.sh 
+  tasks:
+  - name: executing script on slave
+    script: slave.sh
