@@ -37,5 +37,7 @@
    create dockerfile  ### dockerfile is attached in repo
    Create a new branch name devlop
    
-    
-   -
+7- Create a job
+   job1 -> test node -> develop branch  ### Build the job
+   job2 -> test node -> main branch     ### Test the job
+   job3 -> prod node -> main branch     ### Run with the production environment
