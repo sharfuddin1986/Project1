@@ -75,7 +75,7 @@
 
    
    After that open browser and paste the public ip of Test node 
-   http://54.166.226.217:82/       ### web page  is working now
+   http://54.166.226.217:82/       ### web page  is working now with new changes
 
 10- Go to Github repo in main branch and some line add in  index.html file.
    After commit jenkins automatically triggred the job 
@@ -84,3 +84,5 @@
    sudo docker build /home/ubuntu//jenkins/workspace/Job2/ -t job2
    sudo docker run -itd -p 82:80 --name=c2 job2      #### Save
 
+   After that open browser and paste the public ip of Test node 
+   http://54.166.226.217:82/       ### web page  is working now with new changes 
