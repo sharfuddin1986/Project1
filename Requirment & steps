@@ -87,7 +87,11 @@
    After that open browser and paste the public ip of Test node 
    http://54.166.226.217:82/       ### web page  is working now with new changes 
 
-11-  Create job -> name-job3->free style project ->restrict where this project can be run-label expression-salve2 ->Git paste the repo url ->
-   Branch main ->select github hook triggerd for gitscm -> save
+11-Create job -> name-job3->free style project ->restrict where this project can be run-label expression-salve2 ->Git paste the repo url ->
+   Branch main ->select github hook triggerd for gitscm ->Build steps ->execute shell
+   sudo docker build /home/ubuntu//jenkins/workspace/Job3/ -t job3
+   sudo docker run -itd -p 85:80 --name=c3 job3      #### Save
+
+
    After that go to test node /jenkins/workspace/job1    ### i can see dockerfile,index and images file is there 
    we need to run automate conatiner.Then go to job1->Build steps-execute shell-
