@@ -29,12 +29,12 @@
 5- Open any borwser and paste jenkin server ip
    https://3.145.189.184:8080    ### configure the jenkins
    
-   Add new node-name slave1-l,remote root directory-/home/ubutu/jenkins,launch method-Agent via ssh,host-private ip of test node,
+   Add new node-name slave1-l,remote root directory-/home/ubuntu/jenkins,launch method-Agent via ssh,host-private ip of test node,
    credential-add-jenkins-kind-ssh username with private key user name-ubuntu private key enter directory put the pem key contain
    credential-ubuntu,host key verification strategy-non verifiying  strategy - save
 
 
-   Add new node-name slave2-l,copy existing node-select-slave1-change private ip of prod node-save
+   Add new node-name slave2,copy existing slave1-select-slave1-change private ip of prod node-save
 
 6- Go to github account fork of this repo
    https://github.com/hshar/website
