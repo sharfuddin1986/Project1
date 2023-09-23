@@ -40,6 +40,7 @@
    https://github.com/hshar/website
    create dockerfile  ### dockerfile is attached in repo
    Create a new branch name devlop
+   Create a webhook http://35.175.237.66:8080/github-webook/
    
 7- Create a job in jenkins server
    job1 -> test node -> develop branch  ### Build the job
@@ -47,12 +48,17 @@
    job3 -> prod node -> main branch     ### Run with the production environment
 
 
-   job1->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->Branch develop ->save
+   job1->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->
+   Branch develop ->select github hook triggerd for gitscm -> save
    After that go to test node /jenkins/workspace/job1    ### i can see dockerfile,index and images file is there 
    we need to run automate conatiner.Then go to job1->Build steps-execute shell-
-   sudo docker build /home/ubuntu//jenkins/workspace/job1 -t job1
-   sudo docker run -dit --name=job1 -p 83:80 job1
-    
+   sudo docker build /home/ubuntu//jenkins/workspace/Job1/ -t job1
+   sudo docker run -itd -p 83:80 --name=c1 job1
+
+
+   After that open browser and paste the public ip of Test node 
+   http://54.166.226.217:83/       ### web page  is working now 
+
 
    2.43
    job2->free style project ->
