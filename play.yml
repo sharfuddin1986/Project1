@@ -9,5 +9,5 @@
   hosts: all
   become: true
   tasks: 
-- name: executing script on slaves
+- name: executing script on slave
   script: slave.sh 
