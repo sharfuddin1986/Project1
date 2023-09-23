@@ -68,10 +68,19 @@
    sudo docker build /home/ubuntu//jenkins/workspace/Job1/ -t job1
    sudo docker run -itd -p 83:80 --name=c1 job1
 
-9- 
-
-   job2->name-job2 ->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->
+9- Create job2->name-job2 ->free style project ->restrict where this project can be run-label expression-salve1 ->Git paste the repo url ->
    Branch main ->select github hook triggerd for gitscm ->Build step
    sudo docker build /home/ubuntu//jenkins/workspace/Job2/ -t job2
    sudo docker run -itd -p 82:80 --name=c2 job2      #### Save
+
    
+   After that open browser and paste the public ip of Test node 
+   http://54.166.226.217:82/       ### web page  is working now
+
+10- Go to Github repo in main branch and some line add in  index.html file.
+   After commit jenkins automatically triggred the job 
+   Go to Job2 ->configure -> execute shell add one line for delete the old  container name c2 if it not delete job will not run
+   sudo docker rm -f c2
+   sudo docker build /home/ubuntu//jenkins/workspace/Job2/ -t job2
+   sudo docker run -itd -p 82:80 --name=c2 job2      #### Save
+
