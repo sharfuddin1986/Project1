@@ -26,4 +26,4 @@ https://github.com/wazoozsoft/product.git
 #   Job2: test
 #   Job3 : prod
 
-![image](https://user-images.githubusercontent.com/410407a8f1779adeebd5f9a32a03f8cbd5d91d79/Diagram.png)
+![image](https://user-images.githubusercontent.com/blob/ddf8e46eec7db08b4003179c79f3da98ceb4e15a/Diagram.png)
