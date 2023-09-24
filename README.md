@@ -5,7 +5,7 @@ implement DevOpsLifecycle in their company. You have been asked to implement
 this lifecycle as fast as possible. Birla Software is a product-based company, their
 product is available on this GitHub link
 
-https://github.com/birlasoft/product.git
+https://github.com/wazoozsoft/product.git
 
 # Following are the specifications of the lifecycle:
 
