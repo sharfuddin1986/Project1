@@ -25,4 +25,5 @@ https://github.com/birlasoft/product.git
 #   Job1 : build 
 #   Job2: test
 #   Job3 : prod
-https://github.com/sharfuddin1986/Project1/blob/0944589edaba905041faf176c9fc3ffab5aea899/Untitled%20Diagram.drawio.png
+
+<img src="https://github.com/sharfuddin1986/logo/blob/4cc4a40024ac8c2692fef02783ec06e35235a20f/Untitled%20Diagram.drawio.png" alt="Diagram" width="100" height="100" style="max-width: 100%; padding :10px">
