@@ -1,6 +1,6 @@
 # Project1
 
-You have been Hired Sr. DevOps Engineer in Birla Software. They want to
+You have been Hired Sr. DevOps Engineer in Wazooz Software company. They want to
 implement DevOpsLifecycle in their company. You have been asked to implement
 this lifecycle as fast as possible. Birla Software is a product-based company, their
 product is available on this GitHub link
@@ -25,3 +25,4 @@ https://github.com/birlasoft/product.git
 #   Job1 : build 
 #   Job2: test
 #   Job3 : prod
+https://github.com/sharfuddin1986/Project1/blob/0944589edaba905041faf176c9fc3ffab5aea899/Untitled%20Diagram.drawio.png
