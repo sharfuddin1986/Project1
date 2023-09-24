@@ -26,4 +26,4 @@ https://github.com/birlasoft/product.git
 #   Job2: test
 #   Job3 : prod
 
-![image](https://user-images.githubusercontent.com/4cc4a40024ac8c2692fef02783ec06e35235a20f/Untitled%20Diagram.drawio.png" 
+![image](https://user-images.githubusercontent.com/410407a8f1779adeebd5f9a32a03f8cbd5d91d79/Diagram.png" 
