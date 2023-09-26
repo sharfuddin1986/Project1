@@ -1,9 +1,9 @@
-![Diagram](https://github.com/sharfuddin1986/Project1/assets/106474548/73d5983b-5edc-44e1-854d-0f9215b2cc1c)# Project1
 
 You have been Hired Sr. DevOps Engineer in Wazooz Software company. They want to
 implement DevOpsLifecycle in their company. You have been asked to implement
 this lifecycle as fast as possible. Birla Software is a product-based company, their
 product is available on this GitHub link
+![Diagram](https://github.com/sharfuddin1986/Project1/assets/106474548/73d5983b-5edc-44e1-854d-0f9215b2cc1c)# Project1
 
 https://github.com/wazoozsoft/product.git
 
