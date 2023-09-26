@@ -1,4 +1,4 @@
-# Project1
+![Diagram](https://github.com/sharfuddin1986/Project1/assets/106474548/73d5983b-5edc-44e1-854d-0f9215b2cc1c)# Project1
 
 You have been Hired Sr. DevOps Engineer in Wazooz Software company. They want to
 implement DevOpsLifecycle in their company. You have been asked to implement
@@ -11,8 +11,7 @@ https://github.com/wazoozsoft/product.git
 
 1. Install the necessary software on the machines using a configuration management tool.
 2. Git Workflow has to be implemented.
-3. Code Build should automatically be triggered once commit is made to
-   master branch or develop branch.
+3. Code Build should automatically be triggered once commit is made to master branch or develop branch.
    If commit is made to master branch, test and push to prod
    If commit is made to develop branch, just test the product, do not push to prod
 4. The Code should be containerized with the help of a Dockerfile. The
@@ -26,4 +25,4 @@ https://github.com/wazoozsoft/product.git
 #   Job2: test
 #   Job3 : prod
 
-![image](https://user-images.githubusercontent.com/4688c21af090596d41863146cfc492d2a32bcdbf/Diagram.png)
+
